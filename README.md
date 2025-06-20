@@ -43,13 +43,13 @@ A full-stack web application where users can browse books, read and write review
 
 ```
 book-review-platform/
-├── client/              # React frontend
+├── frontend/              # React frontend
 │   ├── components/      # Reusable UI components
 │   ├── pages/           # Page views (Home, Login, BookDetails, etc.)
 │   ├── context/         # BookContext for user state
 │   ├── api.js           # API handlers using Axios
 │   └── App.jsx
-├── server/              # Node.js + Express backend
+├── backend/              # Node.js + Express backend
 │   ├── models/          # Mongoose schemas
 │   ├── controllers/     # Route logic
 │   ├── routes/          # Express route handlers
@@ -70,7 +70,7 @@ book-review-platform/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/book-review-platform.git
+git clone https://github.com/Nithin2701s/book-review-platform.git
 cd book-review-platform
 ```
 
